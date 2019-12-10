@@ -1,0 +1,46 @@
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background: url('../img/infuzion.jpg') center (center/cover) no-repeat;
+
+
+    &__descr {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    &__personal {
+        margin-top: 35px;
+        color: #fff;
+        font-size: 11px;
+        font-weight: 300;
+
+
+        a {
+            color: $main-color;
+
+            .hover {
+                color: #0d0d0d;
+            }
+        }
+    }
+
+    .error {
+        border: 1px solid red;
+    }
+
+    label.error {
+        color: #fff;
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    &__visit {
+        margin-top: 20px;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
