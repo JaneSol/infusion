@@ -36,14 +36,7 @@
     }
 
     &__icon {
-        max-height: 70px;
+        max-height: 65px;
 
-        &_animated {
-            animation: heartbeat 1.5s ease infinite;
-
-            &:hover {
-                animation-play-state: paused;
-            }
-        }
     }
 }

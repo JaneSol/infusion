@@ -1,0 +1,43 @@
+.discount {
+    padding: 50px 0 50px 0;
+    margin-bottom: 30px;
+    background: url("../img/discount.jpg") center (center/cover) no-repeat;
+    max-height: 398px;
+    color: #fff;
+
+    hr {
+        margin-top: 15px;
+        margin-bottom: 17px;
+        width: 80%;
+        border: solid;
+        border-bottom: none;
+    }
+
+    &__wrapper {
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 238px;
+    }
+
+    &__subtitle {
+        margin-top: 28px;
+        color:#000;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    &__descr {
+        margin-top: 24px;
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+    }
+}
