@@ -58,9 +58,9 @@ $(document).ready(function () {
                     minlength: 2
                 },
                 phone: "required",
-                datetime: {
-                    required: true,
-                    datetime: true
+                date:{
+                required: true,
+                date: true
                 }
             },
             messages: {
@@ -71,7 +71,7 @@ $(document).ready(function () {
                 phone: "Пожалуйста, введите свой номер телефона",
                 datetime: {
                     required: "Пожалуйста, выберите удобное время",
-                    datetime: "Неверный формат"
+                    //datetime: "Неверный формат"
                 }
             }
         });
