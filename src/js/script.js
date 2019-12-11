@@ -58,10 +58,11 @@ $(document).ready(function () {
                     minlength: 2
                 },
                 phone: "required",
-                datetime: {
+                datetime: "required",
+                /* {
                     required: true,
                     datetime: true
-                }
+                } */
             },
             messages: {
                 name: {
@@ -82,6 +83,7 @@ $(document).ready(function () {
     validateForms('#order form');
 
     $('input[name=phone]').mask("+7 (999) 999-99-99");
+    $('input[name=date]').mask("дд/мм/гггг чч:мм");
 
 
     $('form').submit(function (e) {

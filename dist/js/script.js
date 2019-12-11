@@ -58,10 +58,11 @@ $(document).ready(function () {
                     minlength: 2
                 },
                 phone: "required",
-                date:{
-                required: true,
-                date: true
-                }
+                datetime: "required",
+                /* {
+                    required: true,
+                    datetime: true
+                } */
             },
             messages: {
                 name: {
@@ -71,7 +72,7 @@ $(document).ready(function () {
                 phone: "Пожалуйста, введите свой номер телефона",
                 datetime: {
                     required: "Пожалуйста, выберите удобное время",
-                    //datetime: "Неверный формат"
+                    datetime: "Неверный формат"
                 }
             }
         });
@@ -82,6 +83,7 @@ $(document).ready(function () {
     validateForms('#order form');
 
     $('input[name=phone]').mask("+7 (999) 999-99-99");
+    $('input[name=date]').mask("дд/мм/гггг чч:мм");
 
 
     $('form').submit(function (e) {
