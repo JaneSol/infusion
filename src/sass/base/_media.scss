@@ -305,8 +305,11 @@
 
 
     .header {
+        padding: 15px;
+
         &__logo {
-            width: 150px;
+            width: 145px;
+
         }
 
         &__official {
@@ -314,7 +317,7 @@
         }
 
         &__phone {
-            font-size: 12px;
+            font-size: 13px;
 
             &:hover {
                 display: none;
@@ -325,27 +328,32 @@
     .button {
         width: 120px;
         height: 30px;
+
+        &_header {
+            display: none;
+        }
     }
 
     .promo {
         min-height: 300px;
-        padding: 12px 10px 10px 10px;
+        padding: 12px 10px 25px 10px;
 
         &__wrapper {
             margin-top: 20px;
+            align-items: center;
         }
 
         &__header {
             font-size: 20px;
-            text-align: right;
+            text-align: center;
             line-height: 20px;
         }
 
         &__subheader {
             margin-top: 10px;
-            font-size: 20px;
-            line-height: 24px;
-            text-align: right;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
         }
 
         &__icons {
@@ -436,11 +444,15 @@
         &__subtitle {
             margin-top: 15px;
             font-size: 14;
-            font-weight: 500;
+            font-weight: 300;
 
             img {
                 max-height: 30px;
             }
+        }
+
+        &__icon {
+            display: none;
         }
     }
 
@@ -539,7 +551,7 @@
 
         &__info {
             width: 230px;
-            height: 160px;
+            height: 125px;
             padding: 10px;
         }
 

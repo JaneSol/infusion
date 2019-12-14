@@ -1,7 +1,9 @@
 .carousel {
     padding: 81px 0;
 
-
+    h2{
+        margin-bottom: 20px;
+    }
     &__inner {
         position: relative;
         width: 750px;
