@@ -1,20 +1,18 @@
 .carousel {
     padding: 81px 0;
+    max-height: 800px;
 
     h2{
         margin-bottom: 20px;
     }
     &__inner {
         position: relative;
-        width: 750px;
         margin: 0 auto;
         
 
         img {
             display: flex;
-            align-items: stretch;
-            max-height: 550px;
-            max-width: 97%;
+            max-width: 98%;
 
         }
     }
