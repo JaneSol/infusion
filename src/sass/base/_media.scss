@@ -97,7 +97,7 @@
         }
 
         &__phone {
-            font-size: 12px;
+            font-size: 13px;
         }
     }
 
@@ -295,9 +295,7 @@
         }
     }
 
-    .footer {
-        margin-top: 20px;
-    }
+  
 }
 
 
@@ -318,10 +316,6 @@
 
         &__phone {
             font-size: 13px;
-
-            &:hover {
-                display: none;
-            }
         }
     }
 
@@ -329,7 +323,7 @@
         width: 120px;
         height: 30px;
 
-        &_header {
+        &__header {
             display: none;
         }
     }
@@ -414,12 +408,20 @@
 
     .consultation {
         min-height: 490px;
+        
 
-
+        &__title{
+            text-align: center;
+        }
         &__descr {
             margin-top: 30px;
             font-size: 12px;
             text-align: center;
+        }
+        &__visit {
+            text-align: center;
+            font-size: 18px;
+    
         }
     }
 
