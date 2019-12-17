@@ -1,9 +1,9 @@
 .discount {
-    padding: 50px 0 50px 0;
+    padding: 50px 0;
     margin-bottom: 1px;
-    background: url("../img/discount.jpg") center (center/cover) no-repeat;
-    max-height: 398px;
-    color: #fff;
+    background-color: #f6f6f6;
+    max-height: 400px;
+    color: $main-color;
 
     hr {
         margin-top: 15px;
@@ -11,6 +11,7 @@
         width: 80%;
         border: solid;
         border-bottom: none;
+
     }
 
     &__wrapper {
@@ -28,7 +29,7 @@
 
     &__subtitle {
         margin-top: 28px;
-        color:#000;
+        color: #000;
         font-size: 28px;
         font-weight: 700;
     }

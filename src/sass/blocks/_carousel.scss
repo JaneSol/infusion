@@ -1,14 +1,15 @@
 .carousel {
-    padding: 81px 0;
+    padding: 60px 0 2px 0;
     max-height: 800px;
 
-    h2{
+    h2 {
         margin-bottom: 20px;
     }
+
     &__inner {
         position: relative;
         margin: 0 auto;
-        
+
 
         img {
             display: flex;
