@@ -1,0 +1,27 @@
+.vitamin {
+    margin-top: 40px;
+    min-height: 650px;
+    padding: 80px 5px 93px 5px;
+    background: url("../img/vitamin_bg.jpg") center (center/cover) no-repeat;
+    &__title{
+        color: #fff;
+        font-size: 34px;
+
+    }
+    &__wrapper {
+        width: 62%;
+        
+    }
+    &__subtitile {
+        color: #fff;
+        font-size: 26px;
+        margin-top: 30px;
+        
+    }
+    &__list {
+        margin-top: 20px;
+        color: #fff;
+        list-style-image: url(../icons/vitamin_drop.png);
+        font-size: 20px;
+    }
+}

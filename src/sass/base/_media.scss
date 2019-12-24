@@ -59,7 +59,28 @@
             }
         }
     }
-
+    .vitamin {
+        margin-top: 35px;
+        min-height: 550px;
+        padding: 60px 5px 60px 5px;
+        &__title{
+            font-size: 26px;
+    
+        }
+        &__wrapper {
+            width: 70%;
+            padding-left: 10px;
+            
+        }
+        &__subtitile {
+            font-size: 22px;
+            margin-top: 20px;
+        }
+        &__list {
+            margin-top: 18px;
+            font-size: 18px;
+        }
+    }
     .consultation {
         padding: 50px 10px 40px 10px;
     }
@@ -70,6 +91,29 @@
 
     .feed {
         padding: 10px 15px 40px 15px;
+    }
+
+    .footer {
+        height: 630px;
+        position: relative;
+
+
+        &__info {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 180px;
+            border-radius: 0;
+        }
+
+        iframe {
+            position: absolute;
+            top: 180px;
+            width: 100%;
+            height: 550px;
+            border: none;
+        }
     }
 }
 
@@ -186,7 +230,29 @@
             margin-bottom: 20px;
         }
     }
-
+    .vitamin {
+        margin-top: 15px;
+        min-height: 550px;
+        padding: 30px 5px 33px 5px;
+        &__title{
+            color: #fff;
+            font-size: 28px;
+    
+        }
+        &__wrapper {
+            width: 77%;
+            
+        }
+        &__subtitile {
+            font-size: 20px;
+            margin-top: 22px;
+        }
+        &__list {
+            margin-top: 15px; 
+            list-style-image: url(../icons/vitamin_drop_m.png);
+            font-size: 18px;
+        }
+    }
     .consultation {
         min-height: 600px;
         padding: 50px 10px 40px 10px;
@@ -293,9 +359,10 @@
                 font-size: 14px;
             }
         }
+
     }
 
-  
+
 }
 
 
@@ -408,23 +475,58 @@
 
     .consultation {
         min-height: 490px;
-        
 
-        &__title{
+
+        &__title {
             text-align: center;
         }
+
         &__descr {
             margin-top: 30px;
             font-size: 12px;
             text-align: center;
         }
+
         &__visit {
             text-align: center;
             font-size: 18px;
-    
+
         }
     }
-
+    .vitamin {
+        margin-top: 10px;
+        min-height: 550px;
+        padding: 30px 3px 33px 3px;
+        background-image: url(../img/vitamin_bg_m.jpg);
+        &__title{
+            margin: 0 7px;
+            color: #fff;
+            font-size: 22px;
+    
+        }
+        
+        &__wrapper {
+            width: 100%;  
+        }
+        &__icon {
+            display: none;
+        }
+        &__subtitile {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        &__list {
+            margin-top: 12px; 
+            list-style-image: url(../icons/vitamin_drop_m.png);
+            font-size: 16px;
+        }
+        &__button {
+            align-items: center;
+            .button {
+                display: block;
+            }
+        }
+    }
     .feed-form {
         margin: 20px auto;
         width: 290px;
@@ -500,9 +602,10 @@
     }
 
     .pageup {
-        right: 15px;
-        width: 25px;
-        height: 25px;
+        right: 3px;
+        bottom: 120px;
+        width: 23px;
+        height: 23px;
     }
 
     .discount {
@@ -549,13 +652,27 @@
     }
 
     .footer {
-        height: 400px;
+        height: 570px;
+        position: relative;
+
 
         &__info {
-            width: 230px;
-            height: 125px;
-            padding: 10px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 130px;
+            border-radius: 0;
         }
+
+        iframe {
+            position: absolute;
+            top: 130px;
+            width: 100%;
+            height: 540px;
+            border: none;
+        }
+
 
         &__addr {
             margin-bottom: 7px;
@@ -589,9 +706,7 @@
             line-height: 12px;
         }
 
-        iframe {
-
-            height: 400px;
-        }
+        
     }
+    
 }

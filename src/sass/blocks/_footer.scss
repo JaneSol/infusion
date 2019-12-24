@@ -5,18 +5,18 @@
 
     &__info {
         position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 400px;
-        height: 240px;
+        top: 15px;
+        right: 15px;
+        width: 340px;
+        height: 180px;
         background-color: $main-color;
-        padding: 40px 68px 60px 68px;
+        padding: 15px 40px 15px 40px;
+        border-radius: 8px;
     }
 
     &__addr {
-        margin-bottom: 17px;
-        color: #ffffff;
+        margin-bottom: 15px;
+        color: #fff;
         font-size: 20px;
         line-height: 20px;
         font-weight: 500;
@@ -30,7 +30,7 @@
         font-size: 18px;
         line-height: 20px;
         font-weight: 700;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
 
 
         &:hover {
@@ -61,7 +61,7 @@
 
     &__licens {
         display: block;
-        margin-top: 25px;
+        margin-top: 20px;
         text-align: center;
         color: #ffffff;
         font-size: 12px;
