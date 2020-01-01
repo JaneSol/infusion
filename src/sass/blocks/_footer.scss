@@ -1,6 +1,7 @@
 .footer {
     height: 630px;
     position: relative;
+    background-color: $main-color;
 
 
     &__info {
@@ -78,5 +79,28 @@
         width: 100%;
         height: 630px;
         border: none;
+
+    }
+
+    &__webstudio {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        background-color: $main-color;
+        color: #fff;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+        padding-top: 12px;
+
+        a {
+            color: #fff;
+
+            &:hover {
+                color: rgb(221, 221, 221);
+            }
+        }
     }
 }

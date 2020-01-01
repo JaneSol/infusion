@@ -1,0 +1,20 @@
+.detox {
+    min-height: 570px;
+    padding: 60px 0 50px 0;
+    background-color:#fff;
+
+    &__descr {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    &__list {
+        margin-top: 20px;
+        list-style: none;
+        font-size: 20px;
+        img {
+            height: 30px;
+        }
+    }
+
+}

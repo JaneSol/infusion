@@ -38,11 +38,21 @@
         height: 40px;
         font-size: 16px;
     }
+
 }
 
+
 @media (max-width:991px) {
-    .container {
-        max-width: 960px;
+    .menu {
+        padding: 40px 0 40px 0;
+
+        &__wrapper {
+            flex-direction: column;
+        }
+
+        &__item {
+            width: 760px;
+        }
     }
 
     .carousel {
@@ -59,28 +69,48 @@
             }
         }
     }
-    .vitamin {
-        margin-top: 35px;
-        min-height: 550px;
-        padding: 60px 5px 60px 5px;
-        &__title{
+    .detox {
+        padding: 50px 5px;
+        &__title {
             font-size: 26px;
-    
-        }
-        &__wrapper {
-            width: 70%;
-            padding-left: 10px;
-            
         }
         &__subtitile {
             font-size: 22px;
             margin-top: 20px;
         }
+
+        &__list {
+            margin-top: 18px;
+            font-size: 18px;
+        }
+
+    }
+    .vitamin {
+        min-height: 550px;
+        padding: 60px 5px 60px 5px;
+
+        &__title {
+            font-size: 26px;
+
+        }
+
+        &__wrapper {
+            width: 70%;
+            padding-left: 10px;
+
+        }
+
+        &__subtitile {
+            font-size: 22px;
+            margin-top: 20px;
+        }
+
         &__list {
             margin-top: 18px;
             font-size: 18px;
         }
     }
+
     .consultation {
         padding: 50px 10px 40px 10px;
     }
@@ -94,7 +124,7 @@
     }
 
     .footer {
-        height: 630px;
+        height: 700px;
         position: relative;
 
 
@@ -105,23 +135,27 @@
             width: 100%;
             height: 180px;
             border-radius: 0;
+            z-index: 2;
         }
 
         iframe {
             position: absolute;
-            top: 180px;
+            z-index: 1;
             width: 100%;
-            height: 550px;
+            height: 700px;
             border: none;
+        }
+
+        &__webstudio {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            z-index: 2;
         }
     }
 }
 
 @media (max-width: 767px) {
-
-    .container {
-        max-width: 920px;
-    }
 
     .header {
         align-items: center;
@@ -206,6 +240,41 @@
         margin-top: 46px;
     }
 
+    .menu {
+        padding: 20px 0 20px 0;
+
+        &__wrapper {
+            flex-direction: column;
+        }
+
+        &__item {
+            max-width: 540px;
+        }
+
+        &__circle {
+            width: 30px;
+            height: 30px;
+            padding-left: 7px;
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+
+        &__subtitle {
+            font-size: 16px;
+        }
+
+
+        &__descr {
+            color: #0d0d0d;
+            font-size: 13px;
+
+        }
+    }
+
     .advantages {
         padding: 30px 10px 40px 10px;
 
@@ -230,29 +299,35 @@
             margin-bottom: 20px;
         }
     }
+
     .vitamin {
-        margin-top: 15px;
+       
         min-height: 550px;
         padding: 30px 5px 33px 5px;
-        &__title{
+
+        &__title {
             color: #fff;
             font-size: 28px;
-    
+
         }
+
         &__wrapper {
             width: 77%;
-            
+
         }
+
         &__subtitile {
             font-size: 20px;
             margin-top: 22px;
         }
+
         &__list {
-            margin-top: 15px; 
+            margin-top: 15px;
             list-style-image: url(../icons/vitamin_drop_m.png);
             font-size: 18px;
         }
     }
+
     .consultation {
         min-height: 600px;
         padding: 50px 10px 40px 10px;
@@ -362,6 +437,12 @@
 
     }
 
+    .whatsuppme {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 
 }
 
@@ -444,7 +525,51 @@
     .title {
         font-size: 20px;
     }
+    .menu {
+        min-height: 570px;
+        padding: 20px 0 20px 0;
+    
+        &__wrapper {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+    
+        }
+    
+        &__item {
+            margin-left: 10px;
+            max-width: 90%;
+    
+        }
+    
+        &__circle {
+            width: 13px;
+            height: 13px;
+            padding-left: 0px;
+            background-color: #fff;
+    
+            img {
+                width: 13px;
+                height: 13px;
+            }
+        }
+    
+        &__point {
 
+            padding-left: 5px;
+            
+        }
+    
+        &__subtitle {
+            font-size: 14px;
+            font-weight: 500;
+        }
+    
+    
+        &__descr {
+            display: none;
+        }
+    }
     .advantages {
         padding: 15px 10px 15px 10px;
 
@@ -493,40 +618,103 @@
 
         }
     }
+    .detox {
+        padding: 30px 5px;
+        &__title {
+            font-size: 22px;
+        }
+        &__descr {
+            padding: 0 7px;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        &__subtitle {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        &__list {
+            margin-top: 13px;
+            padding-left: 7px;
+            font-size: 16px;
+            img {
+                height: 15px;
+            }
+        }
+
+    }
+    .laennec {
+        min-height: 560px;
+        padding: 10px 5px 15px 5px;
+        background: url("../img/laennec_m_bg.jpg") center (center/cover) no-repeat;
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        &__header {
+            font-size: 24px;
+            width: 90%;
+            line-height: 24px;
+        }
+        &__descr {
+            margin-top: 10px;
+            width: 90%;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        &__list {
+            margin-top: 20px;
+            padding-left: 7px;
+            width: 90%;
+            font-size: 16px;
+            img {
+                height: 17px;
+            }
+        }
+    }
     .vitamin {
-        margin-top: 10px;
+      
         min-height: 550px;
         padding: 30px 3px 33px 3px;
         background-image: url(../img/vitamin_bg_m.jpg);
-        &__title{
+
+        &__title {
             margin: 0 7px;
             color: #fff;
             font-size: 22px;
-    
+
         }
-        
+
         &__wrapper {
-            width: 100%;  
+            width: 100%;
         }
+
         &__icon {
             display: none;
         }
+
         &__subtitile {
             font-size: 20px;
             margin-top: 20px;
         }
+
         &__list {
-            margin-top: 12px; 
+            margin-top: 12px;
             list-style-image: url(../icons/vitamin_drop_m.png);
             font-size: 16px;
         }
+
         &__button {
             align-items: center;
+
             .button {
                 display: block;
             }
         }
     }
+
     .feed-form {
         margin: 20px auto;
         width: 290px;
@@ -652,25 +840,20 @@
     }
 
     .footer {
-        height: 570px;
+        height: 630px;
         position: relative;
 
 
         &__info {
             position: absolute;
-            top: 0;
-            right: 0;
-            width: 100%;
             height: 130px;
-            border-radius: 0;
+
         }
 
         iframe {
-            position: absolute;
-            top: 130px;
-            width: 100%;
-            height: 540px;
-            border: none;
+
+            height: 630px;
+
         }
 
 
@@ -706,7 +889,7 @@
             line-height: 12px;
         }
 
-        
+
     }
-    
+
 }

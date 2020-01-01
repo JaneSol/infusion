@@ -1,0 +1,64 @@
+.menu {
+    min-height: 630px;
+    padding: 50px 0 50px 0;
+
+    &__wrapper {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    &__item {
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        max-width: 450px;
+
+    }
+
+    &__circle {
+        width: 40px;
+        height: 40px;
+        background-color: rgba(0, 224, 194, 0.2);
+        border-radius: 50%;
+        text-align: center;
+        padding-left: 10px;
+
+        img {
+            display: block;
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    &__point {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        
+    }
+
+    &__subtitle {
+        margin-top: 15px;
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+
+        a {
+            color: #0d0d0d;
+        }
+        a:hover {
+            color: $main-color;
+            text-decoration-line: none;
+        }
+    }
+
+
+    &__descr {
+        color: #0d0d0d;
+        font-size: 14px;
+        font-weight: 300;
+    }
+}
