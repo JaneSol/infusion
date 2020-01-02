@@ -69,11 +69,14 @@
             }
         }
     }
+
     .detox {
         padding: 50px 5px;
+
         &__title {
             font-size: 26px;
         }
+
         &__subtitile {
             font-size: 22px;
             margin-top: 20px;
@@ -85,6 +88,7 @@
         }
 
     }
+
     .vitamin {
         min-height: 550px;
         padding: 60px 5px 60px 5px;
@@ -301,7 +305,7 @@
     }
 
     .vitamin {
-       
+
         min-height: 550px;
         padding: 30px 5px 33px 5px;
 
@@ -525,51 +529,53 @@
     .title {
         font-size: 20px;
     }
+
     .menu {
         min-height: 570px;
         padding: 20px 0 20px 0;
-    
+
         &__wrapper {
             margin-top: 10px;
             display: flex;
             flex-direction: column;
-    
+
         }
-    
+
         &__item {
             margin-left: 10px;
             max-width: 90%;
-    
+
         }
-    
+
         &__circle {
             width: 13px;
             height: 13px;
             padding-left: 0px;
             background-color: #fff;
-    
+
             img {
                 width: 13px;
                 height: 13px;
             }
         }
-    
+
         &__point {
 
             padding-left: 5px;
-            
+
         }
-    
+
         &__subtitle {
             font-size: 14px;
             font-weight: 500;
         }
-    
-    
+
+
         &__descr {
             display: none;
         }
     }
+
     .advantages {
         padding: 15px 10px 15px 10px;
 
@@ -618,16 +624,20 @@
 
         }
     }
+
     .detox {
         padding: 30px 5px;
+
         &__title {
             font-size: 22px;
         }
+
         &__descr {
             padding: 0 7px;
             margin: 20px 0;
             font-size: 14px;
         }
+
         &__subtitle {
             font-size: 18px;
             font-weight: 700;
@@ -637,45 +647,53 @@
             margin-top: 13px;
             padding-left: 7px;
             font-size: 16px;
+
             img {
                 height: 15px;
             }
         }
 
     }
+
     .laennec {
         min-height: 560px;
         padding: 10px 5px 15px 5px;
         background: url("../img/laennec_m_bg.jpg") center (center/cover) no-repeat;
+
         &__wrapper {
             display: flex;
             flex-direction: column;
             align-items: center;
-            
+
         }
+
         &__header {
             font-size: 24px;
             width: 90%;
             line-height: 24px;
         }
+
         &__descr {
             margin-top: 10px;
             width: 90%;
             font-size: 14px;
             font-weight: 500;
         }
+
         &__list {
             margin-top: 20px;
             padding-left: 7px;
             width: 90%;
             font-size: 16px;
+
             img {
                 height: 17px;
             }
         }
     }
+
     .vitamin {
-      
+
         min-height: 550px;
         padding: 30px 3px 33px 3px;
         background-image: url(../img/vitamin_bg_m.jpg);
@@ -889,7 +907,22 @@
             line-height: 12px;
         }
 
+        &__webstudio {
+            min-height: 60px;
+            padding: 7px 0px;
+            display: flex;
+            flex-direction: column;
+            span {
+                width: 100%;
+                
+    
+            }
+            a {
+          
+                width: 100%;
+               
+    
+        }}
 
     }
-
 }
